@@ -2,7 +2,7 @@ import './App.css';
 import React,{useState} from "react"
 import Chats from './Chats';
 import io from "socket.io-client"
-const socket=io.connect("http://localhost:3001")
+const socket=io.connect("http://localhost:3004")
 function App() {
 const [name,setName]=useState("")
 const [room,setRoom]=useState("")
